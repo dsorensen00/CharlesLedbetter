@@ -1,0 +1,144 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-login {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.card-login {
+  height: 380px;
+  width: 350px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-login p {
+  font-size: 13px;
+  color: #bac4d4;
+  font-weight: 700;
+}
+
+.input-text-login {
+  position: relative;
+  margin-top: 30px;
+}
+
+.input-text-login input {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  outline: 0;
+  font-size: 13px;
+}
+
+.input-text-login input[type="password"] {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  border: 1px solid #e0e3e9;
+  padding: 0 10px;
+  padding-left: 30px;
+  padding-right: 27px;
+  outline: 0;
+}
+
+.fa-envelope {
+  position: absolute;
+  left: 10px;
+  cursor: pointer;
+  top: 15px;
+}
+
+.fa-lock {
+  position: absolute;
+  left: 12px;
+  top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.input-text-login .fa-eye-slash {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.fa-eye {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.buttons-login {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-login button {
+  height: 45px;
+  width: 100%;
+  border: none;
+  background-color: #267fff;
+  border-radius: 9px;
+  font-size: 12px;
+  outline: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.buttons-login button:hover {
+  background-color: #083c87;
+}
+
+.forgot-login {
+  margin-top: 30px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-login a {
+  text-decoration: none;
+}
+
+.warning-login {
+  border: 1px solid red !important;
+}
+
+.type_password-login {
+  border: 1px solid red !important;
+}

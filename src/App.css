@@ -1,38 +1,67 @@
-.App {
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: scale-down;
+  margin: 1rem;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  /* background-color: #FFF; */
+}
+
+.home-heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-heading h1 {
+  font-size: 8vw;
+  font-weight: 900;
+  background-color: #e81000;
+  color: #f8f9fa;
+  display: block;
+  padding: 0.5em;
+}
+
+.home-heading h1:nth-child(2) {
+  position: absolute;
+  background-color: #fff;
+  color: #e81000;
+  clip-path: inset(
+    -1% -1% 50% -1%
+  ); /* Added the negative values to prevent icky "bleed" in Chrome */
+}
+
+.home-heading p {
+  font-size: 2vw;
+  font-weight: 900;
+  margin-top: 1em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-heading p {
+  font-size: 2vw;
+  font-weight: 900;
+  margin-top: 1em;
+  text-align: center;
 }
