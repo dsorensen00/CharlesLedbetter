@@ -27,41 +27,8 @@ body {
   /* background-color: #FFF; */
 }
 
-.home-heading {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-heading h1 {
-  font-size: 8vw;
-  font-weight: 900;
-  background-color: #e81000;
-  color: #f8f9fa;
-  display: block;
-  padding: 0.5em;
-}
-
-.home-heading h1:nth-child(2) {
-  position: absolute;
-  background-color: #fff;
-  color: #e81000;
-  clip-path: inset(
-    -1% -1% 50% -1%
-  ); /* Added the negative values to prevent icky "bleed" in Chrome */
-}
-
-.home-heading p {
-  font-size: 2vw;
-  font-weight: 900;
-  margin-top: 1em;
-  text-align: center;
-}
-
-.home-heading p {
-  font-size: 2vw;
-  font-weight: 900;
-  margin-top: 1em;
-  text-align: center;
+.home-company-title{
+  font-size:4em;
+  font-weight: bold;
+  margin:auto;
 }
